@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100h;
+  margin: 0;
+  background-color: #a5c1fc;
+}
+
+#joystick-container {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background-color: #030c3f;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-left: 50px;
+}
+
+#joystick {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #6174c7;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all;
+}
+.buts > button {
+  display: inline-block;
+  font-size: 30px;
+  padding: 25px;
+  border-radius: 15%;
+  margin-top: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 20px;
+}
+#start {
+  margin-left: 450px;
+}
